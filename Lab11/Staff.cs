@@ -47,8 +47,9 @@ namespace Lab11
         override public string ToString()
         {
 
-            return "Staff[Person[name=" + Name + " address=" + Address + "]"+" school="+School+" pay ="+Pay+"]";
            
+            return base.ToString()+ " school=" + School + " pay =" + Pay + "]";
+
 
         }
 

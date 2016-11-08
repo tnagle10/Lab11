@@ -62,10 +62,10 @@ class Student:Person
 
 
 
-    override public string ToString()
+        override public string ToString()
     {
-
-        return "Staff[Person[name=" + Name + " address=" + Address + "]" + " program=" + Program + " year =" + Year + " Fee =" + Fee+"]";
+            
+        return base.ToString()+" program=" + Program + " year =" + Year + " Fee =" + Fee+"]";
 
 
     }
